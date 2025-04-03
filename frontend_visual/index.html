@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Reservas Aéreas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="scripts/assets/Logo_de_la_aerolinea.ico"Logo de la aerolínea" class="logo">
+        <h1>Bienvenido al Sistema de Reservas Aéreas</h1>
+    </header>
+
+    <main>
+        <section class="search">
+            <h2>Buscar un Vuelo</h2>
+            <form>
+                <label for="origen">Origen:</label>
+                <input type="text" id="origen" placeholder="Ciudad de salida">
+
+                <label for="destino">Destino:</label>
+                <input type="text" id="destino" placeholder="Ciudad de destino">
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha">
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
